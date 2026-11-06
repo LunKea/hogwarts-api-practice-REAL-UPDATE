@@ -70,6 +70,16 @@ Du vælger DEL på den tabel du gerne vile slette en række fra i bruno, og væl
 
 ## Eksempler på request body
 
+### Opret eller opdater et hus
+
+```json
+{
+  "name": "Lugwarts",
+  "colors": "green", "white",
+  "founder": "Lun Hogwarts"
+}
+```
+
 ### Opret eller opdater en studerende
 
 ```json

@@ -75,7 +75,7 @@ Du vælger DEL på den tabel du gerne vile slette en række fra i bruno, og væl
 ```json
 {
   "name": "Lugwarts",
-  "colors": "green", "white",
+        "colors": ["green","white"],
   "founder": "Lun Hogwarts"
 }
 ```
@@ -85,7 +85,7 @@ Du vælger DEL på den tabel du gerne vile slette en række fra i bruno, og væl
 ```json
 {
   "name": "Lunny Potter",
-  "semester": 1,
+  "year": 1,
   "house_id": 2
 }
 ```
@@ -95,7 +95,8 @@ Du vælger DEL på den tabel du gerne vile slette en række fra i bruno, og væl
 ```json
 {
   "name": "Nora Nine",
-  "house_id": 2
+  "house_id": 2,
+  "courses_id": 2
 }
 ```
 

@@ -11,5 +11,5 @@ export const getAllHouses = async () => {
 export const getSingleHouse = async (id) => {
   const singular = await pool.query("SELECT * FROM houses WHERE id = $1", [id]);
 
-  return singular;
+  return singular.rows[0];
 };
